@@ -48,5 +48,9 @@ $(document).ready(function(){
     $(window).scrollTop(0);
     return false;
   })
+  $("a[href='#bottom']").click(function() {
+    $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+    return false;
+  });
 });
 })(jQuery)
