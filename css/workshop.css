@@ -1,0 +1,11 @@
+body {
+    background: url(../img/1835041.jpg) no-repeat fixed center;
+    font-family: '微軟正黑體';
+}
+.hide {
+	display: none;
+}
+
+.segment {
+	background-color: rgba(255,255,255,0.15) !important;
+}
