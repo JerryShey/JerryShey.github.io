@@ -5,7 +5,9 @@ body {
 .hide {
 	display: none;
 }
-
+.menu {
+	background-color: rgba(255,255,255,0.70) !important;
+}
 .segment {
 	background-color: rgba(255,255,255,0.25) !important;
 }
